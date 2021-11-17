@@ -1,0 +1,10 @@
+@import "./navbar.css";
+*{
+    margin: 10px;
+    padding: 2px;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}

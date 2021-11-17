@@ -1,0 +1,29 @@
+.menuprincipal{
+    list-style-type: none;
+    padding: 1px;
+    width: 94.8%;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #6c59d6;
+    background-color: #6c59d6;
+    box-shadow: 20px 20px 40px 40px rgba(170, 170, 170, 0.2);
+}
+.menu{
+    float:right;
+    width: 10%;
+    display: list-item;
+    text-align:center;
+    color:white;
+}
+.menu{
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration:none;
+}
+.menu:hover:not(.active) {
+    background-color: #ddd;
+}
+.menu:hover:not(.active) {
+    background-color: #7a69db;
+}
