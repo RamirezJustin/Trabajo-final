@@ -9,3 +9,43 @@
 a{
     text-decoration: none;
 }
+@media(max-width: 480px) {
+    *{
+        margin: 5px;
+    }
+    .contenido{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contenido:nth-of-type(odd){
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .card_image{
+        width: 300px;
+        height: 400px;
+    }
+    .contmenu{
+        display: none;
+    }
+    .card_image img{
+        padding-left:8%;
+    }
+    .card_content{
+        padding:0px;
+        font-size: 16px;
+    }
+    .card_image{
+        width: 392px;
+    }
+    .info{
+        height: 280px;
+        font-size: 20px;
+    }
+    .card_perfil{
+        padding-left: 5%;
+    }
+    ul{
+        list-style: none;
+    }
+}
